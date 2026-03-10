@@ -1,0 +1,119 @@
+{
+  "projectType": "frontend",
+  "projectName": "Karma",
+  "projectDescription": "An Angular frontend application for managing users, products, and orders with authentication and administration features.",
+  "theme": "mint",
+  "primaryColor": "#3cbcab",
+  "lightColor": "#349b8b",
+  "darkColor": "#949494",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "quickstart", "installation"]
+          },
+          {
+            "group": "Architecture",
+            "pages": ["architecture/overview", "architecture/modules", "architecture/routing"]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/layout",
+              "components/administration",
+              "components/security",
+              "components/orders"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/user-management",
+              "features/product-management",
+              "features/authentication",
+              "features/order-management"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Component Reference",
+        "groups": [
+          {
+            "group": "Layout Components",
+            "pages": [
+              "reference/navbar",
+              "reference/footer",
+              "reference/inicio"
+            ]
+          },
+          {
+            "group": "User Components",
+            "pages": [
+              "reference/crear-usuario",
+              "reference/buscar-usuario",
+              "reference/editar-usuario",
+              "reference/eliminar-usuario"
+            ]
+          },
+          {
+            "group": "Product Components",
+            "pages": [
+              "reference/crear-producto",
+              "reference/buscar-producto",
+              "reference/editar-producto",
+              "reference/eliminar-producto"
+            ]
+          },
+          {
+            "group": "Security Components",
+            "pages": [
+              "reference/identificacion",
+              "reference/cambiar-clave",
+              "reference/recuperar-clave"
+            ]
+          },
+          {
+            "group": "Order Components",
+            "pages": [
+              "reference/asignar-pedido"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "User management with CRUD operations",
+    "Product catalog management",
+    "Authentication and password recovery",
+    "Order assignment system",
+    "Modular architecture with lazy loading",
+    "Reactive forms integration"
+  ],
+  "publicApiSurface": [
+    "AppModule",
+    "AppRoutingModule",
+    "AdministracionModule",
+    "SeguridadModule",
+    "PedidosModule",
+    "NavbarComponent",
+    "FooterComponent",
+    "InicioComponent",
+    "CrearUsuarioComponent",
+    "BuscarUsuarioComponent",
+    "EditarUsuarioComponent",
+    "EliminarUsuarioComponent",
+    "CrearProductoComponent",
+    "BuscarProductoComponent",
+    "EditarProductoComponent",
+    "EliminarProductoComponent",
+    "IdentificacionComponent",
+    "CambiarClaveComponent",
+    "RecuperarClaveComponent",
+    "AsignarPedidoComponent"
+  ]
+}
